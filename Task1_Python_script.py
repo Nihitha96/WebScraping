@@ -59,7 +59,7 @@ def save_file(text):
 	fname = f'scraped_articles/{name}.txt'
 	
 	# Code here - write a file using with (2 lines)
-	with open(fname,"w") as file:
+	with open(fname,"w",encoding="utf-8") as file:
 		file.write(text)
 
 
